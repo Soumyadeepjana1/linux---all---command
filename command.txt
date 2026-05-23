@@ -1,0 +1,172 @@
+# Linux Commands With Their Work (DevOps)
+
+| Command          | Work / Purpose                 |
+| ---------------- | ------------------------------ |
+| pwd              | Show current directory         |
+| ls               | List files and folders         |
+| ls -l            | Show detailed file list        |
+| ls -a            | Show hidden files              |
+| cd               | Change directory               |
+| mkdir            | Create folder                  |
+| rmdir            | Remove empty folder            |
+| touch            | Create empty file              |
+| cp               | Copy files/folders             |
+| mv               | Move or rename files           |
+| rm               | Delete files                   |
+| rm -rf           | Force delete folder/files      |
+| find             | Search files/folders           |
+| locate           | Quickly find files             |
+| tree             | Show folder structure          |
+| cat              | Show file content              |
+| less             | Read large files               |
+| more             | View file page by page         |
+| head             | Show first lines of file       |
+| tail             | Show last lines of file        |
+| tail -f          | Live log monitoring            |
+| grep             | Search text inside files       |
+| awk              | Text processing                |
+| sed              | Edit text from command line    |
+| sort             | Sort lines                     |
+| uniq             | Remove duplicate lines         |
+| wc               | Count lines/words/chars        |
+| cut              | Extract columns/text           |
+| tr               | Replace characters             |
+| echo             | Print text/output              |
+| clear            | Clear terminal                 |
+| history          | Show command history           |
+| whoami           | Show current user              |
+| id               | Show user and group ID         |
+| who              | Show logged in users           |
+| w                | Show active users and process  |
+| useradd          | Create new user                |
+| passwd           | Set/change password            |
+| userdel          | Delete user                    |
+| groupadd         | Create group                   |
+| sudo             | Run command as admin           |
+| su               | Switch user                    |
+| chmod            | Change file permissions        |
+| chown            | Change file owner              |
+| chgrp            | Change group ownership         |
+| umask            | Default permission settings    |
+| ps               | Show running processes         |
+| top              | Real-time process monitor      |
+| htop             | Advanced process monitor       |
+| kill             | Stop process using PID         |
+| killall          | Kill process by name           |
+| pkill            | Kill matching process          |
+| jobs             | Show background jobs           |
+| bg               | Run job in background          |
+| fg               | Bring job to foreground        |
+| nohup            | Run process after logout       |
+| uname            | System information             |
+| hostname         | Show system hostname           |
+| uptime           | System running time            |
+| date             | Show current date/time         |
+| cal              | Show calendar                  |
+| free -h          | Show RAM usage                 |
+| df -h            | Show disk usage                |
+| du -sh           | Show folder size               |
+| lsblk            | Show block devices             |
+| fdisk -l         | Show disk partitions           |
+| mount            | Mount storage device           |
+| umount           | Unmount device                 |
+| ping             | Test network connectivity      |
+| ifconfig         | Show network interfaces        |
+| ip a             | Show IP address                |
+| ip route         | Show routing table             |
+| netstat          | Network statistics             |
+| ss               | Socket statistics              |
+| traceroute       | Show packet path               |
+| dig              | DNS lookup                     |
+| nslookup         | Query DNS records              |
+| host             | DNS information                |
+| curl             | Send HTTP requests             |
+| wget             | Download files from internet   |
+| ssh              | Remote server login            |
+| scp              | Securely copy files            |
+| rsync            | Fast file synchronization      |
+| ssh-keygen       | Generate SSH key               |
+| tar              | Archive files                  |
+| gzip             | Compress files                 |
+| gunzip           | Decompress files               |
+| zip              | Create zip archive             |
+| unzip            | Extract zip archive            |
+| systemctl        | Manage services                |
+| service          | Start/stop services            |
+| journalctl       | View system logs               |
+| crontab -e       | Edit scheduled tasks           |
+| env              | Show environment variables     |
+| export           | Set environment variable       |
+| source           | Reload shell file              |
+| alias            | Create command shortcut        |
+| apt update       | Update package list            |
+| apt upgrade      | Upgrade packages               |
+| apt install      | Install software               |
+| yum install      | Install package in RHEL/CentOS |
+| docker ps        | Show running containers        |
+| docker images    | Show Docker images             |
+| docker pull      | Download Docker image          |
+| docker run       | Start container                |
+| docker stop      | Stop container                 |
+| docker exec      | Access container terminal      |
+| docker logs      | View container logs            |
+| kubectl get pods | Show Kubernetes pods           |
+| kubectl get svc  | Show Kubernetes services       |
+| kubectl apply -f | Deploy Kubernetes YAML         |
+| kubectl logs     | Show pod logs                  |
+| git init         | Initialize Git repository      |
+| git clone        | Download Git repository        |
+| git status       | Show Git changes               |
+| git add .        | Add files to Git               |
+| git commit       | Save changes in Git            |
+| git push         | Upload code to GitHub          |
+| git pull         | Download latest code           |
+| git branch       | Show Git branches              |
+| git checkout     | Switch branch                  |
+| git merge        | Merge branches                 |
+| git log          | Show commit history            |
+
+# Most Important DevOps Commands
+
+## Linux
+
+* ls
+* cd
+* grep
+* find
+* chmod
+* chown
+* systemctl
+* journalctl
+* curl
+* ssh
+
+## Networking
+
+* ping
+* ip a
+* netstat
+* ss
+* dig
+* traceroute
+
+## Docker
+
+* docker ps
+* docker run
+* docker logs
+* docker exec
+
+## Kubernetes
+
+* kubectl get pods
+* kubectl logs
+* kubectl describe pod
+
+## Git
+
+* git status
+* git add
+* git commit
+* git push
+* git pull
