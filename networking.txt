@@ -1,0 +1,69 @@
+# DevOps Networking Commands With Work
+
+| Command                            | Work                                   |
+| ---------------------------------- | -------------------------------------- |
+| `ip a`                             | Show IP address and network interfaces |
+| `ip route`                         | Show routing table                     |
+| `ifconfig`                         | Show network configuration             |
+| `ping`                             | Check connectivity between systems     |
+| `ping google.com`                  | Test internet connection               |
+| `traceroute`                       | Show packet travel path                |
+| `tracepath`                        | Trace network route                    |
+| `netstat`                          | Show network statistics and ports      |
+| `ss`                               | Show socket and port information       |
+| `ss -tulnp`                        | Show listening ports and services      |
+| `hostname`                         | Show system hostname                   |
+| `hostname -I`                      | Show system IP address                 |
+| `nslookup`                         | Query DNS information                  |
+| `dig`                              | Advanced DNS lookup                    |
+| `host`                             | Show domain IP details                 |
+| `curl`                             | Send HTTP request to server            |
+| `wget`                             | Download files from internet           |
+| `ssh`                              | Connect remote server securely         |
+| `scp`                              | Copy files securely between servers    |
+| `rsync`                            | Fast file synchronization              |
+| `tcpdump`                          | Capture network packets                |
+| `nmap`                             | Scan ports and hosts                   |
+| `arp -a`                           | Show ARP table                         |
+| `route`                            | Show/manipulate routing table          |
+| `lsof -i`                          | Show processes using network ports     |
+| `ethtool`                          | Show NIC information                   |
+| `iwconfig`                         | Show wireless interface details        |
+| `nmcli`                            | NetworkManager command tool            |
+| `mtr`                              | Network diagnostic and tracing         |
+| `iftop`                            | Monitor bandwidth usage                |
+| `iperf`                            | Test network speed                     |
+| `telnet`                           | Test remote port connection            |
+| `nc`                               | Netcat for testing ports/connections   |
+| `whois`                            | Domain registration information        |
+| `systemctl restart NetworkManager` | Restart networking service             |
+| `journalctl -u NetworkManager`     | View networking logs                   |
+| `sudo ufw status`                  | Show firewall status                   |
+| `sudo iptables -L`                 | Show firewall rules                    |
+| `ip link show`                     | Show network interfaces                |
+| `ip link set eth0 up`              | Enable interface                       |
+| `ip link set eth0 down`            | Disable interface                      |
+| `resolvectl status`                | Show DNS resolver status               |
+| `kubectl get svc`                  | Show Kubernetes services               |
+| `kubectl get pods -o wide`         | Show pod IP addresses                  |
+| `docker network ls`                | Show Docker networks                   |
+| `docker inspect container_name`    | Show container network details         |
+
+---
+
+# Most Important Commands for DevOps Interviews
+
+| Command             | Work                        |
+| ------------------- | --------------------------- |
+| `ping`              | Connectivity testing        |
+| `curl`              | API/server testing          |
+| `ssh`               | Remote server access        |
+| `ip a`              | IP troubleshooting          |
+| `ss -tulnp`         | Port troubleshooting        |
+| `dig`               | DNS troubleshooting         |
+| `traceroute`        | Network path debugging      |
+| `tcpdump`           | Packet analysis             |
+| `netstat`           | Port and connection details |
+| `nmap`              | Security and port scanning  |
+| `kubectl get svc`   | Kubernetes networking       |
+| `docker network ls` | Docker networking           |
